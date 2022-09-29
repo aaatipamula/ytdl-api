@@ -4,15 +4,20 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "server": "nodemon server.js"
+    "server": "nodemon server.js",
+    "start": "node server.js"
   },
   "keywords": [],
-  "author": "",
+  "author": "Aniketh Aatipamula",
   "license": "ISC",
   "dependencies": {
+    "body-parser": "^1.20.0",
     "express": "^4.17.3",
+    "jszip": "^3.10.1",
+    "sequelize": "^6.22.1",
     "sqlite3": "^5.0.8",
-    "ytdl-core": "^4.11.0"
+    "ytdl-core": "^4.11.2",
+    "ytpl": "^2.3.0"
   },
   "devDependencies": {
     "nodemon": "^2.0.19"
