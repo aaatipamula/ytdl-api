@@ -111,7 +111,9 @@ app.route("/").post(
 )
 
 app.listen(8000, async () => {
+
   let start = await startup()
+
   if (start) {
     console.log('Application running...')
   } else {
